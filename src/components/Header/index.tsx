@@ -18,6 +18,12 @@ export function Header() {
                             <Link href="/contatos" className="hover:text-zinc-400 transition">
                                 Contatos
                             </Link>
+                            <Link 
+                              href="/cardapios"
+                              className="hover:text-zinc-400 transition ml-4"
+                            >
+                                Cardápios
+                            </Link>
                         </li>
                     </ul>
                 </nav>
