@@ -10,9 +10,10 @@ export function Header() {
                 <nav>
                     <ul className="flex items-center gap-4 text-sm md:text-base">
                         <li>
-                            <Link href="/" className="hover:text-zinc-400 transition">
-                                Home
-                            </Link>
+                        <Link href="/" className="hover:text-zinc-400 transition" aria-label="Página inicial">
+                                 Home
+                        </Link>
+
                         </li>
                         <li>
                             <Link href="/contatos" className="hover:text-zinc-400 transition">
