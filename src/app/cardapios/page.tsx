@@ -1,9 +1,13 @@
+import { link } from "fs";
 import Link from "next/link";
 
 const cardapios = [
   { nome: "Pizzas", descricao: "Confira nossas deliciosas pizzas.", link: "/cardapio/pizzas" },
   { nome: "Lanches", descricao: "Hambúrgueres artesanais e combos.", link: "/cardapio/lanches" },
   { nome: "Bebidas", descricao: "Sucos naturais, refrigerantes e drinks.", link: "/cardapio/bebidas" },
+  { nome: "Bebidas", descricao: "Sucos naturais, refrigerantes e drinks.", link: "/cardapio/bebidas" },
+  {nome: "Sobremessas",descricao:"Doces Irresistíveis para finalizar sua refeição",link: "/cardapio/sobremesas"}
+
 ];
 
 export default function Cardapios() {
