@@ -24,14 +24,14 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  return (
-    <html lang="pt-br">
-      <body
-        className={`antialiased`}
-      > 
-       <Header/>
+    return (
+     <html lang="pt-br">
+       <body
+         className={`antialiased`}
+       > 
+         <Header/>
      
-        {children}
+         {children}
       </body>
     </html>
   );
