@@ -8,6 +8,6 @@ export default function NotFound() {
       <Link href="/" className="mt-4 text-blue-500 hover:underline">
         Voltar para home
       </Link>
-    </div>
+      </div>
   );
 }
